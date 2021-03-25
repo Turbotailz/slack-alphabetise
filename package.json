@@ -1,6 +1,6 @@
 {
   "name": "slack-alphabetise",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Convert text to Slack alphabet emoji",
   "main": "index.js",
   "scripts": {

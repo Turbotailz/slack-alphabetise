@@ -20,8 +20,8 @@ You can now use the `slack-alphabetise` command globally.
 slack-alphabetise <string> [style]
 ```
 
-`<string>` - can be any string containing alpha characters, spaces, `!`, `?`, `@` and `#` (if using spaces, you must wrap the string in "quotes"). The command will fail if any other characters are used.
-`[style]` - can be either `white` or `yellow` (defaults to `white`).
+- `<string>` - can be any string containing alpha characters, spaces, `!`, `?`, `@` and `#` (if using spaces, you must wrap the string in "quotes"). The command will fail if any other characters are used.
+- `[style]` - can be either `white` or `yellow` (defaults to `white`).
 
 ##### Example
 
