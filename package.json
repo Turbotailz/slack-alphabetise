@@ -1,0 +1,27 @@
+{
+  "name": "slack-alphabetise",
+  "version": "1.0.0",
+  "description": "Convert text to Slack alphabet emoji",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "slack-alphabetise": "./cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Turbotailz/slack-alphabetise.git"
+  },
+  "keywords": [
+    "slack",
+    "emoji",
+    "alphabet"
+  ],
+  "author": "Turbotailz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Turbotailz/slack-alphabetise/issues"
+  },
+  "homepage": "https://github.com/Turbotailz/slack-alphabetise#readme"
+}
