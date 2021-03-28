@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/Turbotailz/slack-alphabetise/issues"
   },
-  "homepage": "https://github.com/Turbotailz/slack-alphabetise#readme"
+  "homepage": "https://github.com/Turbotailz/slack-alphabetise#readme",
+  "dependencies": {
+    "chalk": "^4.1.0"
+  }
 }

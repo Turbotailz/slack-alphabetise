@@ -1,5 +1,10 @@
+const chalk = require('chalk');
+
 function alphabetise(string, style = 'white') {
-  if (!['white', 'yellow'].includes(style)) throw new Error(`Invalid style: ${style} - must be either 'white' or 'yellow'`);
+  if (!string)
+    throw new Error('A string is required');
+  if (!['white', 'yellow'].includes(style))
+    throw new Error(`Invalid style`)
 
   const characterMap = {
     a: 'a',
@@ -37,12 +42,11 @@ function alphabetise(string, style = 'white') {
   const emoji = [...string].map((char) => {
     if (char !== ' ') {
       const character = characterMap[char.toLowerCase()];
-      if (!character) throw new Error(`Invalid character: '${char}'`);
+      if (!character) throw new Error(`Invalid character: "${char}"`);
       return `:alphabet_${style}_${character}:`
     } else {
       return char;
     }
-    char !== ' ' ? `:alphabet_${style}_${char.toLowerCase()}:` : char
   });
   return emoji.join('');
 }
